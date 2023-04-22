@@ -1,0 +1,321 @@
+/* reset */
+html{
+    background-color: rgb(216, 205, 205);
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* defaults */
+h1,
+h2,
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:oblique;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 3.4em;
+}
+
+h2 {
+    font-size: 2.1em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+/* layout */
+body {
+   
+   
+  
+    gap: 1em;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #b9b9b9;
+
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+#aside-1 {
+    grid-area: aside1;
+}
+
+
+
+footer {
+    grid-area: footer;
+    background-color: rgb(43, 38, 34);
+    padding: 2em;
+    text-align: center;
+}
+
+
+
+
+
+footer>p {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+
+
+
+
+.ci-level-1 {
+    padding-left: 1em;
+}
+
+.ci-level-1>li>h3 {
+    margin-top: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #333;
+}
+
+.ci-level-2 {
+    padding-left: 1em;
+}
+
+.ci-level-2>li {
+    padding: 0.25em 0;
+}
+
+
+#ingredients>li,
+#steps>li {
+    padding-left: 1em;
+}
+
+
+table {
+    width: 100%;
+    border: 2px solid #333;
+    padding: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+table tr {
+    border: 2px solid#333;
+    border: 0.5em 0;
+}
+
+table th,
+table td {
+    padding: 0.5em 0;
+}
+
+table th {
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+
+table>tfoot>tr>td {
+    text-align: center;
+    vertical-align: middle;
+    border-top: 2px solid #333;
+
+
+}
+
+.border-left {
+    border-left: 2px solid #333;
+}
+
+img {
+    width: 200px;
+    /* float: left; */
+    /* margin-right: 1em; */
+}
+
+header>h1 {
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+nav{
+    display: flex;
+    padding:1%;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  nav img{
+    width: 150px;
+  }
+  .nav-links{
+    flex:1;
+    text-align: center;
+  }
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 1px 30px;
+    position: relative;
+  }
+  .nav-links ul li a{
+    color:#000000;
+    text-decoration: none;
+    font-size:20px;
+  }
+  nav a:hover{
+    background-color: rgb(83, 224, 64);
+
+} 
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.text {
+    font-size: 70px;
+}
+
+
+
+button {
+    color: aliceblue;
+    background-color: #333;
+
+}
+
+button:hover {
+    color: #005bbc;
+}
+.container {
+    position: relative;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+  }
+  
+  img { 
+    width: 100%;
+    height: auto;
+    /* opacity: 0.3; */
+  }
+  .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Sec1{
+    width:80%;
+    text-align: left;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+  }
+  .col img{
+    width: 100%;
+  }
+  .col h1{
+    padding-top: 0;
+    font-size: 30px;
+  }
+  .col p{
+    padding: 13px 0 20px;
+    font-size: 15px;
+  
+  }
+  .Sec1{
+    width:80%;
+    text-align: left;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+
+
+  .box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    /* margin-top: 3%; */
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box p{
+    text-align: justify;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+  

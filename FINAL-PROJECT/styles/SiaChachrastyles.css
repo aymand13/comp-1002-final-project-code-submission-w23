@@ -1,0 +1,252 @@
+html{
+  background-color: rgb(216, 205, 205);
+}
+
+.container {
+align-items: center;
+justify-content: center;
+display: grid;
+grid-template-columns: 30% 70%;
+}
+
+.mine img {
+width: 100%;
+height:50vh;
+/* float: left; */
+}
+
+.p1 {
+font-size: 15px;
+padding-left: 2px;
+margin-left: 10px;
+/* float: left; */
+}
+
+.container-2 {
+align-items: center;
+justify-content: center;
+display: grid;
+grid-template-columns: 45% 55%;
+}
+
+.certificate img {
+width: 90vh;
+height:40vh;
+margin-left: 10px;
+
+}  
+
+
+
+nav a:hover{
+background-color: rgb(83, 224, 64);
+
+} */
+
+.p2{
+font-size: 18px;
+/* padding-left: 2px; */
+/* float: left; */
+}
+* {
+      
+      
+      font-family: Georgia, 'Times New Roman', Times, serif
+  }
+
+  main {
+      width: 1200px;
+      margin: 0 auto;
+  }
+
+  header {
+      grid-area: header;
+      text-align: center;
+      height: 100px;
+      background-color: #73667a;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding-top:40px;
+  }
+
+  
+  footer {
+      grid-area: footer;
+      background-color: #73667a;
+      text-align: center;
+      height: 100px;
+  }
+  footer>p {
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      padding-top:40px ;
+  }
+  nav{
+      display: flex;
+      padding:1%;
+      justify-content: space-between;
+      align-items: center;
+    
+    }
+    nav img{
+      width: 150px;
+    }
+    .nav-links{
+      flex:1;
+      text-align: center;
+    }
+    .nav-links ul li{
+      list-style: none;
+      display: inline-block;
+      text-align: center;
+      padding: 1px 30px;
+      position: relative;
+    }
+    .nav-links ul li a{
+      color:#000000;
+      text-decoration: none;
+      font-size:20px;
+    }
+  .home-section{
+      height: 100vh;
+      width:100%;
+      background-image: linear-gradient(rgba(5,8,32,0.5),rgba(5,8,32,0.5)),url("../images/IMG_7.jpg");
+      background-position: center;
+      background-size: cover;
+    }
+    .text-box{
+      width:100%;
+      position: absolute;
+      top:40%;
+      bottom:50%;
+      font-size:50px;
+      text-align:center;
+    }
+    .text-box p{
+      font-size: 45px;
+    }
+    .row{
+      margin-top: 5%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .brand{
+      width:80%;
+      text-align: left;
+      margin: auto;
+      padding-top: 30px;
+      padding-bottom: 50px;
+    }
+    
+    .brand-col{
+      flex-basis: 48%;
+      padding: 30px 2px;
+    }
+    .brand-col img{
+      width: 100%;
+      padding-top: 100px;
+
+    }
+    .brand-col h1{
+      padding-top: 0;
+      font-size: 30px;
+    }
+    .brand-col p{
+      padding: 13px 0 20px;
+      font-size: 25px;
+    
+    }
+
+.designSlides{
+display: none;
+}
+.designSlides img{
+vertical-align: middle;
+}
+.slideshow-container {
+max-width: 100%;
+position: relative;
+margin: auto;
+}
+.slideshow-container .designSlides img{
+width: 100%;
+height: auto;
+}
+.slideshow-container .designSlides img{
+width: 100%;
+height: 380px;
+}
+.slideshow-container .designSlides {
+width: 100%;
+height: 250px; 
+}
+.backward, .forward{
+width: auto;
+cursor: pointer;
+position:absolute;
+top: 50%;
+padding: 16px;
+margin-top: -22px;
+color: rgb(207, 30, 30);
+font-weight: bold;
+font-size: 49px;
+transition: 0.5s ease;
+border-radius: 0 4px 4px 0;
+user-select: none;
+}
+.forward{
+right:0;
+border-radius: 4px 0px 0px 4px;
+}
+.backward:hover, .forward:hover{
+background-color: #7CFC00;
+color:#fff;
+}
+
+.container p{
+font-size: 15px;
+padding-top: 5%;
+}
+.container-2 p{
+font-size: 20px;
+padding-top: 5%;
+}
+h3{
+text-align: center;
+
+}
+h4{
+text-align: center;
+
+}
+.container, .container-2{
+display: grid;
+grid-template-columns: 50% 50%;
+align-items: center;
+}
+.container h3{
+font-size: 30px;
+}
+.container-2 h4{
+font-size: 30px;
+
+}
+.container div img{
+width: 100%;
+height: 60vh;
+}
+.container div:nth-child(2){
+padding: 2%;
+}
+.container-2 div:first-child{
+padding: 2%;
+}
+.container-2 div img{
+width: 100%;
+height: 60vh;
+}
+.container{
+width: 90%;
+margin: auto;
+overflow: hidden;
+}

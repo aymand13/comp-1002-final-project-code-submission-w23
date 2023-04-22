@@ -1,0 +1,144 @@
+@import url('./layout.css');
+
+html {
+    background-color: #0e0e0e;
+}
+
+body, header, main, aside, footer
+ {
+    outline: 1px dashed #ccc;
+    background-color: white;
+}
+
+/*navagation*/
+
+#main-nav {
+    background-color: black;
+}
+
+#main-nav ul { 
+    display: flex;
+    justify-content:center ;
+}
+
+#main-nav a { 
+    padding: 1em 6.5em;
+    display: block;
+    color: #FFFFFF;
+}
+
+
+#flex-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Header*/
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    background-image:url(https://i.pinimg.com/736x/fc/97/f6/fc97f68ba888a322447445baa6f1f4ed.jpg);
+    background-position: center
+    background-size: cover;
+    color:#fff;
+}
+nav{
+    display: flex;
+    padding:1%;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  nav img{
+    width: 150px;
+  }
+  .nav-links{
+    flex:1;
+    text-align: center;
+  }
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    padding: 1px 30px;
+    position: relative;
+  }
+  .nav-links ul li a{
+    color:#000000;
+    text-decoration: none;
+    font-size:20px;
+  }
+  nav a:hover{
+    background-color: rgb(83, 224, 64);
+
+} 
+
+header > a {
+    margin-left: 700px;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+h1 {
+    margin-left: 75px;
+    color:white;
+    font-family: Garamond, serif;;
+}
+
+
+
+/* main */
+main p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+#description img {
+    float: left;
+    margin-right: 1em;
+}
+
+#description p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-bottom: 2em;
+}
+
+/* aside */
+aside h2 {
+    font-size: 1.5em;
+    background-color: black;
+    color: #FFF;
+    padding: 1em 2em;
+}
+
+aside h3 {
+    font-size: 1.2em;
+    background-color: #333333;
+    color: #FFF;
+    text-decoration: none;
+    padding: 1em 1em;
+}
+
+aside ol li {
+    padding: 1em;
+}
+
+
+.asidez {
+    text-decoration: none;
+}
+
+
+/*footer*/
+footer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    color: white;
+    background-color: black;
+}
+

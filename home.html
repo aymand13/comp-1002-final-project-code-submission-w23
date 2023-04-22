@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/SiaChachrastyles.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!--javascript file is linked-->
+    <script type="text/javascript" src="./js/home.js"></script>
+    
+    <script type="text/javascript" src="./js/javascript.js"></script>
+
+
+
+</head>
+<nav>
+    
+    <div class="nav-links">
+      <ul>
+      
+        <li><a href="home.html" class="button">HOME</a></li>
+      
+        <li><a href="index.html" class="button">ABOUT</a></li>
+
+        <!-- <li><a href="/final project about page/using-grid/index.html" class="button">ABOUT</a></li> -->
+        <li><a href="AymanDaher.html"class="button">AYMAN</a></li>
+        <li><a href="Lekhan.html"class="button">LEKHAN</a></li>
+        <li><a href="SiaChachra.html"class="button">SIA</a></li>
+        <li><a href="VinnieChachra.html"class="button">VINNIE</a></li>
+        <li><a href="contact.html" class="button">CONTACT US</a></li>
+        
+      </ul>
+   </div>
+   </nav>
+
+
+<body>
+    <section class="home-section"></section>
+
+    <div class="text-box">
+        <h2 onmouseover="headingOver(this)" onmouseout="headingOut(this)">From Then To Now: Our Autobiography</h2>
+
+    </div>
+
+    <section class="brand">
+        <div class="row">
+            <div class="brand-col">
+                <!--image of the brand-->
+                <img src="./images/IMG_6.jpg" alt="All four of us">
+            </div>
+            <div class="brand-col">
+
+                <!--information about the brand-->
+                
+                <p>We all remember the first day of our computer programming course at college. It was a daunting
+                    experience, stepping into a classroom full of strangers and not knowing what to expect. We were all
+                    excited to learn more about programming, but also nervous about the challenging coursework ahead.
+                    As the professor began their lecture, we quickly realized that this class was going to be no walk in
+                    the park. During a break in the class, we all found ourselves huddled in small groups, trying to
+                    process what we had just learned. That's when we noticed each other. A group of us, who would later
+                    become friends, were sitting near the front of the room. We noticed that we were all struggling and
+                    decided to introduce ourselves. After that initial meeting, we met in other classes and started
+                    sitting together in most of the classes . We would work on assignments together and help each other
+                    understand the more difficult concepts. As we spent more time together, we became close friends. We
+                    all had different backgrounds and interests, but our shared passion for programming brought us
+                    together. We would often meet up outside of class to hang out, or work on side projects together.
+                    Despite our close bond, the coursework was still challenging. There were times when we all felt
+                    overwhelmed and unsure if we were going to be able to keep up with the class. But we persevered, and
+                    our study group became a support system that helped us through the tough times. We would often
+                    commiserate about the difficulty of the class and share tips on how to tackle the coursework. As the
+                    semester came to a close, we all felt a sense of accomplishment. We had made it through a
+                    challenging course and had formed lasting friendships in the process. Looking back, we realized that
+                    our computer programming course had not only taught us about programming but also about the value of
+                    collaboration and teamwork. We had all grown as individuals and programmers, and we knew that our
+                    study group would always be a part of our college memories.
+                </p>
+            </div>
+           
+        </div>
+    </section>
+    <!--A slideshow is created-->
+    <section class="slider-container">
+        <div class="slideshow-container">
+            <div class="designSlides"  style="display: block">
+                <img src="./images/IMG_3.jpg" alt="college">
+            </div>
+            <div class="designSlides">
+                <img src="./images/IMG_4.png" alt="html">
+            </div>
+            <div class="designSlides">
+                <img src="./images/IMG_8.png" alt="headquarters">
+            </div>
+            <!--the two buttons forward and backward-->
+            <a class="backward" onclick="nextSlides(-1,0)">&#10094;</a>
+            <a class="forward" onclick="nextSlides(1,0)">&#10095;</a>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
